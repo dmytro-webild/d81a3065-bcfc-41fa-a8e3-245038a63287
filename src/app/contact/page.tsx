@@ -51,22 +51,22 @@ export default function ContactPage() {
           mediaItems={[
             {
               imageSrc:
-                "http://img.b2bpic.net/free-photo/warehouse-logistics-service-composition_23-2149128315.jpg",              imageAlt: "Наш офис и склад"},
+                "http://img.b2bpic.net/free-photo/warehouse-logistics-service-composition_23-2149128315.jpg?_wi=4",              imageAlt: "Наш офис и склад"},
             {
               imageSrc:
-                "http://img.b2bpic.net/free-photo/export-supervisor-drafting-billing-product-logistics_482257-88029.jpg",              imageAlt: "Менеджеры по продажам"},
+                "http://img.b2bpic.net/free-photo/export-supervisor-drafting-billing-product-logistics_482257-88029.jpg?_wi=5",              imageAlt: "Менеджеры по продажам"},
             {
               imageSrc:
-                "http://img.b2bpic.net/free-photo/female-trucker-standing-front-parked-trucks-pointing-her-finger-transportation-vehicles_342744-281.jpg",              imageAlt: "Служба доставки"},
+                "http://img.b2bpic.net/free-photo/female-trucker-standing-front-parked-trucks-pointing-her-finger-transportation-vehicles_342744-281.jpg?_wi=3",              imageAlt: "Служба доставки"},
             {
               imageSrc:
-                "http://img.b2bpic.net/free-photo/rolls-garbage-bags-white-background-space-text_185193-162961.jpg",              imageAlt: "Готовая продукция"},
+                "http://img.b2bpic.net/free-photo/rolls-garbage-bags-white-background-space-text_185193-162961.jpg?_wi=4",              imageAlt: "Готовая продукция"},
             {
               imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-perforated-fabric_23-2149894565.jpg",              imageAlt: "Качество материалов"},
+                "http://img.b2bpic.net/free-photo/close-up-perforated-fabric_23-2149894565.jpg?_wi=6",              imageAlt: "Качество материалов"},
             {
               imageSrc:
-                "http://img.b2bpic.net/free-photo/african-american-supervisor-evaluates-renewable-energy-metrics-factory_482257-125788.jpg",              imageAlt: "Контроль качества"},
+                "http://img.b2bpic.net/free-photo/african-american-supervisor-evaluates-renewable-energy-metrics-factory_482257-125788.jpg?_wi=3",              imageAlt: "Контроль качества"},
           ]}
         />
       </div>
