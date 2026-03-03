@@ -54,7 +54,7 @@ export default function ProductsPage() {
               name: "Полиэтиленовая плёнка 100-150 мкм",
               price: "От 2,500 сум/кг",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-perforated-fabric_23-2149894565.jpg",
+                "http://img.b2bpic.net/free-photo/close-up-perforated-fabric_23-2149894565.jpg?_wi=4",
               imageAlt: "Полиэтиленовая плёнка премиум класса",
             },
             {
@@ -62,7 +62,7 @@ export default function ProductsPage() {
               name: "ПВХ трубы и фитинги",
               price: "От 3,200 сум/кг",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/minimalist-construction-pvc-pipes-arrangement_23-2149106839.jpg",
+                "http://img.b2bpic.net/free-photo/minimalist-construction-pvc-pipes-arrangement_23-2149106839.jpg?_wi=3",
               imageAlt: "Трубы и фитинги из ПВХ",
             },
             {
@@ -70,7 +70,7 @@ export default function ProductsPage() {
               name: "Стрейч-плёнка производственная",
               price: "От 3,500 сум/кг",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/black-man-moving-furniture_53876-24835.jpg",
+                "http://img.b2bpic.net/free-photo/black-man-moving-furniture_53876-24835.jpg?_wi=3",
               imageAlt: "Стрейч-плёнка промышленного назначения",
             },
             {
@@ -78,7 +78,7 @@ export default function ProductsPage() {
               name: "Упаковочные пакеты и рулоны",
               price: "От 1,800 сум/кг",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/warehouse-logistics-service-composition_23-2149128315.jpg",
+                "http://img.b2bpic.net/free-photo/warehouse-logistics-service-composition_23-2149128315.jpg?_wi=3",
               imageAlt: "Упаковочные материалы оптом",
             },
             {
@@ -86,7 +86,7 @@ export default function ProductsPage() {
               name: "Салфаны и листовые материалы",
               price: "От 2,200 сум/кг",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-perforated-fabric_23-2149894571.jpg",
+                "http://img.b2bpic.net/free-photo/close-up-perforated-fabric_23-2149894571.jpg?_wi=3",
               imageAlt: "Салфаны и пластиковые листы",
             },
             {
@@ -94,7 +94,7 @@ export default function ProductsPage() {
               name: "Специальные заказы и нестандартные размеры",
               price: "Цена по запросу",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/export-supervisor-drafting-billing-product-logistics_482257-88029.jpg",
+                "http://img.b2bpic.net/free-photo/export-supervisor-drafting-billing-product-logistics_482257-88029.jpg?_wi=3",
               imageAlt: "Производство на заказ",
             },
           ]}
