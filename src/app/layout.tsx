@@ -6,41 +6,25 @@ import { ServiceWrapper } from "@/components/ServiceWrapper";
 import Tag from "@/tag/Tag";
 
 const dmSans = DM_Sans({
-  variable: "--font-dm-sans",
-  subsets: ["latin"],
+  variable: "--font-dm-sans",  subsets: ["latin"],
 });
 
 const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
+  variable: "--font-inter",  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "SALAFAN-CHI - Поставщик пластмасс в Намангане | 24/7",
-  description: "Надежный поставщик ПВХ и полиэтиленовой пленки в Намангане. Оптовые и розничные поставки. Быстрая доставка. Лучшие цены. Работаем 24/7. +998 93 494 10 06",
-  keywords: "пластмассы Намаган, ПВХ Намаган, полиэтиленовая плёнка, стрейч-плёнка, упаковочные материалы, поставщик пластмасс, оптовые поставки, пластические изделия Узбекистан",
-  metadataBase: new URL("https://salafan-chi.uz"),
+  title: "SALAFAN-CHI - Поставщик пластмасс в Намангане | 24/7",  description: "Надежный поставщик ПВХ и полиэтиленовой пленки в Намангане. Оптовые и розничные поставки. Быстрая доставка. Лучшие цены. Работаем 24/7. +998 93 494 10 06",  keywords: "пластмассы Намаган, ПВХ Намаган, полиэтиленовая плёнка, стрейч-плёнка, упаковочные материалы, поставщик пластмасс, оптовые поставки, пластические изделия Узбекистан",  metadataBase: new URL("https://salafan-chi.uz"),
   alternates: {
-    canonical: "https://salafan-chi.uz",
-  },
+    canonical: "https://salafan-chi.uz"},
   openGraph: {
-    title: "SALAFAN-CHI - Поставщик пластмасс в Намангане",
-    description: "Оптовые и розничные поставки пластических изделий. Быстрая доставка. 24/7 доступность. Лучшие цены гарантированы.",
-    url: "https://salafan-chi.uz",
-    siteName: "SALAFAN-CHI",
-    type: "website",
-    images: [
+    title: "SALAFAN-CHI - Поставщик пластмасс в Намангане",    description: "Оптовые и розничные поставки пластических изделий. Быстрая доставка. 24/7 доступность. Лучшие цены гарантированы.",    url: "https://salafan-chi.uz",    siteName: "SALAFAN-CHI",    type: "website",    images: [
       {
-        url: "https://salafan-chi.uz/og-image.jpg",
-        alt: "SALAFAN-CHI - Поставщик пластмасс",
-      },
+        url: "https://salafan-chi.uz/og-image.jpg",        alt: "SALAFAN-CHI - Поставщик пластмасс"},
     ],
   },
   twitter: {
-    card: "summary_large_image",
-    title: "SALAFAN-CHI - Поставщик пластмасс | Намаган",
-    description: "Надежные пластические изделия. Оптовые и розничные поставки. Работаем 24/7.",
-    images: ["https://salafan-chi.uz/twitter-image.jpg"],
+    card: "summary_large_image",    title: "SALAFAN-CHI - Поставщик пластмасс | Намаган",    description: "Надежные пластические изделия. Оптовые и розничные поставки. Работаем 24/7.",    images: ["https://salafan-chi.uz/twitter-image.jpg"],
   },
   robots: {
     index: true,
