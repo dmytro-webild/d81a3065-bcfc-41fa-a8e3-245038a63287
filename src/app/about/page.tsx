@@ -54,10 +54,10 @@ export default function AboutPage() {
               mediaItems: [
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-vector/247-hours-open-helpline-yellow-template-design_1017-54495.jpg",                  imageAlt: "24/7 доступность"},
+                    "http://img.b2bpic.net/free-vector/247-hours-open-helpline-yellow-template-design_1017-54495.jpg?_wi=2",                  imageAlt: "24/7 доступность"},
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-photo/export-supervisor-drafting-billing-product-logistics_482257-88029.jpg",                  imageAlt: "Круглосуточный отдел доставки"},
+                    "http://img.b2bpic.net/free-photo/export-supervisor-drafting-billing-product-logistics_482257-88029.jpg?_wi=4",                  imageAlt: "Круглосуточный отдел доставки"},
               ],
             },
             {
@@ -66,10 +66,10 @@ export default function AboutPage() {
               mediaItems: [
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-photo/female-trucker-standing-front-parked-trucks-pointing-her-finger-transportation-vehicles_342744-281.jpg",                  imageAlt: "Собственный автопарк доставки"},
+                    "http://img.b2bpic.net/free-photo/female-trucker-standing-front-parked-trucks-pointing-her-finger-transportation-vehicles_342744-281.jpg?_wi=2",                  imageAlt: "Собственный автопарк доставки"},
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-photo/rolls-garbage-bags-white-background-space-text_185193-162961.jpg",                  imageAlt: "Упакованные товары готовы к отправке"},
+                    "http://img.b2bpic.net/free-photo/rolls-garbage-bags-white-background-space-text_185193-162961.jpg?_wi=3",                  imageAlt: "Упакованные товары готовы к отправке"},
               ],
             },
             {
@@ -78,10 +78,10 @@ export default function AboutPage() {
               mediaItems: [
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-photo/best-price-offer-promotion-commerce-marketing-concept_53876-125395.jpg",                  imageAlt: "Самые низкие цены в городе"},
+                    "http://img.b2bpic.net/free-photo/best-price-offer-promotion-commerce-marketing-concept_53876-125395.jpg?_wi=2",                  imageAlt: "Самые низкие цены в городе"},
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-photo/close-up-perforated-fabric_23-2149894565.jpg",                  imageAlt: "Качество материалов"},
+                    "http://img.b2bpic.net/free-photo/close-up-perforated-fabric_23-2149894565.jpg?_wi=5",                  imageAlt: "Качество материалов"},
               ],
             },
             {
@@ -90,10 +90,10 @@ export default function AboutPage() {
               mediaItems: [
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-photo/african-american-supervisor-evaluates-renewable-energy-metrics-factory_482257-125788.jpg",                  imageAlt: "Контроль качества продукции"},
+                    "http://img.b2bpic.net/free-photo/african-american-supervisor-evaluates-renewable-energy-metrics-factory_482257-125788.jpg?_wi=2",                  imageAlt: "Контроль качества продукции"},
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-photo/photo-automobile-production-line-welding-car-body-modern-car-assembly-plant-auto-industry-male-worker-orange-protective-helmet_645730-108.jpg",                  imageAlt: "Производственные мощности"},
+                    "http://img.b2bpic.net/free-photo/photo-automobile-production-line-welding-car-body-modern-car-assembly-plant-auto-industry-male-worker-orange-protective-helmet_645730-108.jpg?_wi=2",                  imageAlt: "Производственные мощности"},
               ],
             },
           ]}
