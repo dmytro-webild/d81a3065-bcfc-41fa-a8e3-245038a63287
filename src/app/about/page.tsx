@@ -17,7 +17,7 @@ export default function AboutPage() {
       borderRadius="rounded"
       contentWidth="mediumSmall"
       sizing="mediumSizeLargeTitles"
-      background="grid"
+      background="circleGradient"
       cardStyle="layered-gradient"
       primaryButtonStyle="primary-glow"
       secondaryButtonStyle="solid"
@@ -49,75 +49,51 @@ export default function AboutPage() {
           useInvertedBackground={true}
           features={[
             {
-              title: "Круглосуточная доступность",
-              description:
-                "Работаем без выходных и праздников. Вы можете позвонить и сделать заказ в любое время дня и ночи. Срочные поставки — наша специальность.",
-              icon: Clock,
+              title: "Круглосуточная доступность",              description:
+                "Работаем без выходных и праздников. Вы можете позвонить и сделать заказ в любое время дня и ночи. Срочные поставки — наша специальность.",              icon: Clock,
               mediaItems: [
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-vector/247-hours-open-helpline-yellow-template-design_1017-54495.jpg?_wi=2",
-                  imageAlt: "24/7 доступность",
-                },
+                    "http://img.b2bpic.net/free-vector/247-hours-open-helpline-yellow-template-design_1017-54495.jpg",                  imageAlt: "24/7 доступность"},
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-photo/export-supervisor-drafting-billing-product-logistics_482257-88029.jpg?_wi=4",
-                  imageAlt: "Круглосуточный отдел доставки",
-                },
+                    "http://img.b2bpic.net/free-photo/export-supervisor-drafting-billing-product-logistics_482257-88029.jpg",                  imageAlt: "Круглосуточный отдел доставки"},
               ],
             },
             {
-              title: "Быстрая доставка по Намангану",
-              description:
-                "При заказе от 50 кг доставляем товар бесплатно по городу в течение 24 часов. Используем собственный автопарк для надёжности.",
-              icon: Truck,
+              title: "Быстрая доставка по Намангану",              description:
+                "При заказе от 50 кг доставляем товар бесплатно по городу в течение 24 часов. Используем собственный автопарк для надёжности.",              icon: Truck,
               mediaItems: [
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-photo/female-trucker-standing-front-parked-trucks-pointing-her-finger-transportation-vehicles_342744-281.jpg?_wi=2",
-                  imageAlt: "Собственный автопарк доставки",
-                },
+                    "http://img.b2bpic.net/free-photo/female-trucker-standing-front-parked-trucks-pointing-her-finger-transportation-vehicles_342744-281.jpg",                  imageAlt: "Собственный автопарк доставки"},
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-photo/rolls-garbage-bags-white-background-space-text_185193-162961.jpg?_wi=3",
-                  imageAlt: "Упакованные товары готовы к отправке",
-                },
+                    "http://img.b2bpic.net/free-photo/rolls-garbage-bags-white-background-space-text_185193-162961.jpg",                  imageAlt: "Упакованные товары готовы к отправке"},
               ],
             },
             {
-              title: "Лучшие цены на рынке",
-              description:
-                "Мы работаем напрямую с производителями, что позволяет нам предлагать самые конкурентные цены. Сравните наши предложения с другими поставщиками.",
-              icon: DollarSign,
+              title: "Лучшие цены на рынке",              description:
+                "Мы работаем напрямую с производителями, что позволяет нам предлагать самые конкурентные цены. Сравните наши предложения с другими поставщиками.",              icon: DollarSign,
               mediaItems: [
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-photo/best-price-offer-promotion-commerce-marketing-concept_53876-125395.jpg?_wi=2",
-                  imageAlt: "Самые низкие цены в городе",
-                },
+                    "http://img.b2bpic.net/free-photo/best-price-offer-promotion-commerce-marketing-concept_53876-125395.jpg",                  imageAlt: "Самые низкие цены в городе"},
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-photo/close-up-perforated-fabric_23-2149894565.jpg?_wi=5",
-                  imageAlt: "Качество материалов",
-                },
+                    "http://img.b2bpic.net/free-photo/close-up-perforated-fabric_23-2149894565.jpg",                  imageAlt: "Качество материалов"},
               ],
             },
             {
-              title: "Проверенное качество и сертификаты",
-              description:
-                "Все наши товары сертифицированы и прошли строгий контроль качества. При обнаружении дефектов мы гарантируем возврат в течение 7 дней.",
-              icon: CheckCircle,
+              title: "Проверенное качество и сертификаты",              description:
+                "Все наши товары сертифицированы и прошли строгий контроль качества. При обнаружении дефектов мы гарантируем возврат в течение 7 дней.",              icon: CheckCircle,
               mediaItems: [
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-photo/african-american-supervisor-evaluates-renewable-energy-metrics-factory_482257-125788.jpg?_wi=2",
-                  imageAlt: "Контроль качества продукции",
-                },
+                    "http://img.b2bpic.net/free-photo/african-american-supervisor-evaluates-renewable-energy-metrics-factory_482257-125788.jpg",                  imageAlt: "Контроль качества продукции"},
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-photo/photo-automobile-production-line-welding-car-body-modern-car-assembly-plant-auto-industry-male-worker-orange-protective-helmet_645730-108.jpg?_wi=2",
-                  imageAlt: "Производственные мощности",
-                },
+                    "http://img.b2bpic.net/free-photo/photo-automobile-production-line-welding-car-body-modern-car-assembly-plant-auto-industry-male-worker-orange-protective-helmet_645730-108.jpg",                  imageAlt: "Производственные мощности"},
               ],
             },
           ]}
@@ -136,32 +112,16 @@ export default function AboutPage() {
           useInvertedBackground={false}
           metrics={[
             {
-              id: "1",
-              value: "9",
-              title: "лет",
-              description: "На рынке пластических изделий",
-              icon: Calendar,
+              id: "1",              value: "9",              title: "лет",              description: "На рынке пластических изделий",              icon: Calendar,
             },
             {
-              id: "2",
-              value: "2500",
-              title: "клиентов",
-              description: "Доверяют нам свои заказы",
-              icon: Users,
+              id: "2",              value: "2500",              title: "клиентов",              description: "Доверяют нам свои заказы",              icon: Users,
             },
             {
-              id: "3",
-              value: "99.9",
-              title: "%",
-              description: "Доставок выполнено вовремя",
-              icon: CheckCircle,
+              id: "3",              value: "99.9",              title: "%",              description: "Доставок выполнено вовремя",              icon: CheckCircle,
             },
             {
-              id: "4",
-              value: "50",
-              title: "типов",
-              description: "Различных пластических материалов",
-              icon: Award,
+              id: "4",              value: "50",              title: "типов",              description: "Различных пластических материалов",              icon: Award,
             },
           ]}
         />
