@@ -40,7 +40,7 @@ export default function HomePage() {
       borderRadius="rounded"
       contentWidth="mediumSmall"
       sizing="mediumSizeLargeTitles"
-      background="grid"
+      background="circleGradient"
       cardStyle="layered-gradient"
       primaryButtonStyle="primary-glow"
       secondaryButtonStyle="solid"
@@ -67,7 +67,7 @@ export default function HomePage() {
           description="Оптовые и розничные поставки. Быстрая доставка. Работаем 24/7. Позвоните прямо сейчас и получите лучшую цену на пластмассы."
           tag="Поставщик пластмасс"
           tagIcon={Package}
-          background={{ variant: "grid" }}
+          background={{ variant: "plain" }}
           buttons={[
             { text: "📞 Позвонить сейчас: +998 93 494 10 06", href: "tel:+998934941006" },
             { text: "📝 Получить предложение", href: "/contact" },
@@ -75,34 +75,22 @@ export default function HomePage() {
           mediaItems={[
             {
               imageSrc:
-                "http://img.b2bpic.net/free-photo/rolls-garbage-bags-white-background-space-text_185193-162961.jpg?_wi=1",
-              imageAlt: "Рулоны пластмасс",
-            },
+                "http://img.b2bpic.net/free-photo/rolls-garbage-bags-white-background-space-text_185193-162961.jpg",              imageAlt: "Рулоны пластмасс"},
             {
               imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-perforated-fabric_23-2149894565.jpg?_wi=1",
-              imageAlt: "Полиэтиленовая плёнка",
-            },
+                "http://img.b2bpic.net/free-photo/close-up-perforated-fabric_23-2149894565.jpg",              imageAlt: "Полиэтиленовая плёнка"},
             {
               imageSrc:
-                "http://img.b2bpic.net/free-photo/minimalist-construction-pvc-pipes-arrangement_23-2149106839.jpg?_wi=1",
-              imageAlt: "ПВХ изделия",
-            },
+                "http://img.b2bpic.net/free-photo/minimalist-construction-pvc-pipes-arrangement_23-2149106839.jpg",              imageAlt: "ПВХ изделия"},
             {
               imageSrc:
-                "http://img.b2bpic.net/free-photo/black-man-moving-furniture_53876-24835.jpg?_wi=1",
-              imageAlt: "Стрейч-плёнка",
-            },
+                "http://img.b2bpic.net/free-photo/black-man-moving-furniture_53876-24835.jpg",              imageAlt: "Стрейч-плёнка"},
             {
               imageSrc:
-                "http://img.b2bpic.net/free-photo/warehouse-logistics-service-composition_23-2149128315.jpg?_wi=1",
-              imageAlt: "Упаковочные материалы",
-            },
+                "http://img.b2bpic.net/free-photo/warehouse-logistics-service-composition_23-2149128315.jpg",              imageAlt: "Упаковочные материалы"},
             {
               imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-perforated-fabric_23-2149894571.jpg?_wi=1",
-              imageAlt: "Салфаны и листовые материалы",
-            },
+                "http://img.b2bpic.net/free-photo/close-up-perforated-fabric_23-2149894571.jpg",              imageAlt: "Салфаны и листовые материалы"},
           ]}
         />
       </div>
@@ -119,53 +107,23 @@ export default function HomePage() {
           useInvertedBackground={false}
           products={[
             {
-              id: "1",
-              name: "Полиэтиленовая плёнка",
-              price: "От 2,500 сум/кг",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-perforated-fabric_23-2149894565.jpg?_wi=2",
-              imageAlt: "Полиэтиленовая плёнка в рулонах",
-            },
+              id: "1",              name: "Полиэтиленовая плёнка",              price: "От 2,500 сум/кг",              imageSrc:
+                "http://img.b2bpic.net/free-photo/close-up-perforated-fabric_23-2149894565.jpg",              imageAlt: "Полиэтиленовая плёнка в рулонах"},
             {
-              id: "2",
-              name: "ПВХ изделия",
-              price: "От 3,200 сум/кг",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/minimalist-construction-pvc-pipes-arrangement_23-2149106839.jpg?_wi=2",
-              imageAlt: "Трубы и изделия из ПВХ",
-            },
+              id: "2",              name: "ПВХ изделия",              price: "От 3,200 сум/кг",              imageSrc:
+                "http://img.b2bpic.net/free-photo/minimalist-construction-pvc-pipes-arrangement_23-2149106839.jpg",              imageAlt: "Трубы и изделия из ПВХ"},
             {
-              id: "3",
-              name: "Стрейч-плёнка",
-              price: "От 3,500 сум/кг",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/black-man-moving-furniture_53876-24835.jpg?_wi=2",
-              imageAlt: "Стрейч-плёнка для упаковки",
-            },
+              id: "3",              name: "Стрейч-плёнка",              price: "От 3,500 сум/кг",              imageSrc:
+                "http://img.b2bpic.net/free-photo/black-man-moving-furniture_53876-24835.jpg",              imageAlt: "Стрейч-плёнка для упаковки"},
             {
-              id: "4",
-              name: "Упаковочные материалы",
-              price: "От 1,800 сум/кг",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/warehouse-logistics-service-composition_23-2149128315.jpg?_wi=2",
-              imageAlt: "Упаковочные пакеты и рулоны",
-            },
+              id: "4",              name: "Упаковочные материалы",              price: "От 1,800 сум/кг",              imageSrc:
+                "http://img.b2bpic.net/free-photo/warehouse-logistics-service-composition_23-2149128315.jpg",              imageAlt: "Упаковочные пакеты и рулоны"},
             {
-              id: "5",
-              name: "Салфаны",
-              price: "От 2,200 сум/кг",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-perforated-fabric_23-2149894571.jpg?_wi=2",
-              imageAlt: "Салфаны и листовые материалы",
-            },
+              id: "5",              name: "Салфаны",              price: "От 2,200 сум/кг",              imageSrc:
+                "http://img.b2bpic.net/free-photo/close-up-perforated-fabric_23-2149894571.jpg",              imageAlt: "Салфаны и листовые материалы"},
             {
-              id: "6",
-              name: "Специальные заказы",
-              price: "Цена по запросу",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/export-supervisor-drafting-billing-product-logistics_482257-88029.jpg?_wi=1",
-              imageAlt: "Производство на заказ",
-            },
+              id: "6",              name: "Специальные заказы",              price: "Цена по запросу",              imageSrc:
+                "http://img.b2bpic.net/free-photo/export-supervisor-drafting-billing-product-logistics_482257-88029.jpg",              imageAlt: "Производство на заказ"},
           ]}
         />
       </div>
@@ -181,75 +139,51 @@ export default function HomePage() {
           useInvertedBackground={true}
           features={[
             {
-              title: "Круглосуточная работа",
-              description:
-                "Мы доступны 24/7, включая праздники и выходные. Срочные заказы приветствуются.",
-              icon: Clock,
+              title: "Круглосуточная работа",              description:
+                "Мы доступны 24/7, включая праздники и выходные. Срочные заказы приветствуются.",              icon: Clock,
               mediaItems: [
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-vector/247-hours-open-helpline-yellow-template-design_1017-54495.jpg?_wi=1",
-                  imageAlt: "24/7 доступность",
-                },
+                    "http://img.b2bpic.net/free-vector/247-hours-open-helpline-yellow-template-design_1017-54495.jpg",                  imageAlt: "24/7 доступность"},
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-photo/export-supervisor-drafting-billing-product-logistics_482257-88029.jpg?_wi=2",
-                  imageAlt: "Круглосуточный склад",
-                },
+                    "http://img.b2bpic.net/free-photo/export-supervisor-drafting-billing-product-logistics_482257-88029.jpg",                  imageAlt: "Круглосуточный склад"},
               ],
             },
             {
-              title: "Бесплатная доставка по Намангану",
-              description:
-                "При заказе от 50 кг доставляем бесплатно по городу. Быстро и надёжно.",
-              icon: Truck,
+              title: "Бесплатная доставка по Намангану",              description:
+                "При заказе от 50 кг доставляем бесплатно по городу. Быстро и надёжно.",              icon: Truck,
               mediaItems: [
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-photo/female-trucker-standing-front-parked-trucks-pointing-her-finger-transportation-vehicles_342744-281.jpg?_wi=1",
-                  imageAlt: "Быстрая доставка",
-                },
+                    "http://img.b2bpic.net/free-photo/female-trucker-standing-front-parked-trucks-pointing-her-finger-transportation-vehicles_342744-281.jpg",                  imageAlt: "Быстрая доставка"},
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-photo/rolls-garbage-bags-white-background-space-text_185193-162961.jpg?_wi=2",
-                  imageAlt: "Готовая упаковка",
-                },
+                    "http://img.b2bpic.net/free-photo/rolls-garbage-bags-white-background-space-text_185193-162961.jpg",                  imageAlt: "Готовая упаковка"},
               ],
             },
             {
-              title: "Оптимальные цены",
-              description:
-                "Сравните наши цены с конкурентами. Гарантируем лучшие предложения на рынке.",
-              icon: DollarSign,
+              title: "Оптимальные цены",              description:
+                "Сравните наши цены с конкурентами. Гарантируем лучшие предложения на рынке.",              icon: DollarSign,
               mediaItems: [
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-photo/best-price-offer-promotion-commerce-marketing-concept_53876-125395.jpg?_wi=1",
-                  imageAlt: "Лучшие цены",
-                },
+                    "http://img.b2bpic.net/free-photo/best-price-offer-promotion-commerce-marketing-concept_53876-125395.jpg",                  imageAlt: "Лучшие цены"},
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-photo/close-up-perforated-fabric_23-2149894565.jpg?_wi=3",
-                  imageAlt: "Качество по цене",
-                },
+                    "http://img.b2bpic.net/free-photo/close-up-perforated-fabric_23-2149894565.jpg",                  imageAlt: "Качество по цене"},
               ],
             },
             {
-              title: "Качество и надёжность",
-              description:
-                "Все продукты сертифицированы и прошли проверку качества. Возврат в течение 7 дней.",
-              icon: CheckCircle,
+              title: "Качество и надёжность",              description:
+                "Все продукты сертифицированы и прошли проверку качества. Возврат в течение 7 дней.",              icon: CheckCircle,
               mediaItems: [
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-photo/african-american-supervisor-evaluates-renewable-energy-metrics-factory_482257-125788.jpg?_wi=1",
-                  imageAlt: "Контроль качества",
-                },
+                    "http://img.b2bpic.net/free-photo/african-american-supervisor-evaluates-renewable-energy-metrics-factory_482257-125788.jpg",                  imageAlt: "Контроль качества"},
                 {
                   imageSrc:
-                    "http://img.b2bpic.net/free-photo/photo-automobile-production-line-welding-car-body-modern-car-assembly-plant-auto-industry-male-worker-orange-protective-helmet_645730-108.jpg?_wi=1",
-                  imageAlt: "Производство",
-                },
+                    "http://img.b2bpic.net/free-photo/photo-automobile-production-line-welding-car-body-modern-car-assembly-plant-auto-industry-male-worker-orange-protective-helmet_645730-108.jpg",                  imageAlt: "Производство"},
               ],
             },
           ]}
@@ -268,32 +202,16 @@ export default function HomePage() {
           useInvertedBackground={false}
           metrics={[
             {
-              id: "1",
-              value: "9",
-              title: "лет на рынке",
-              description: "Успешно работаем с 2015 года",
-              icon: Calendar,
+              id: "1",              value: "9",              title: "лет на рынке",              description: "Успешно работаем с 2015 года",              icon: Calendar,
             },
             {
-              id: "2",
-              value: "2500",
-              title: "довольных клиентов",
-              description: "Регулярные заказы от бизнеса в Намангане",
-              icon: Users,
+              id: "2",              value: "2500",              title: "довольных клиентов",              description: "Регулярные заказы от бизнеса в Намангане",              icon: Users,
             },
             {
-              id: "3",
-              value: "99.9",
-              title: "% доставок вовремя",
-              description: "Стабильно выполняем графики поставок",
-              icon: CheckCircle,
+              id: "3",              value: "99.9",              title: "% доставок вовремя",              description: "Стабильно выполняем графики поставок",              icon: CheckCircle,
             },
             {
-              id: "4",
-              value: "24",
-              title: "часов доступности",
-              description: "Работаем без выходных и праздников",
-              icon: Clock,
+              id: "4",              value: "24",              title: "часов доступности",              description: "Работаем без выходных и праздников",              icon: Clock,
             },
           ]}
         />
@@ -310,65 +228,29 @@ export default function HomePage() {
           useInvertedBackground={true}
           testimonials={[
             {
-              id: "1",
-              name: "Азиз Хамраев",
-              handle: "ООО 'СтройМатериалы'",
-              testimonial:
-                "Работаю с SALAFAN-CHI уже 4 года. Качество не подводит, цены честные, доставка быстрая. Рекомендую всем!",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=1",
-              imageAlt: "Азиз Хамраев",
-            },
+              id: "1",              name: "Азиз Хамраев",              handle: "ООО 'СтройМатериалы'",              testimonial:
+                "Работаю с SALAFAN-CHI уже 4 года. Качество не подводит, цены честные, доставка быстрая. Рекомендую всем!",              imageSrc:
+                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",              imageAlt: "Азиз Хамраев"},
             {
-              id: "2",
-              name: "Эргашева Гули",
-              handle: "Завод упаковки 'Тарозмонд'",
-              testimonial:
-                "Поддерживаем спонтанные заказы благодаря 24/7 доступности SALAFAN-CHI. Просто супер!",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=2",
-              imageAlt: "Эргашева Гули",
-            },
+              id: "2",              name: "Эргашева Гули",              handle: "Завод упаковки 'Тарозмонд'",              testimonial:
+                "Поддерживаем спонтанные заказы благодаря 24/7 доступности SALAFAN-CHI. Просто супер!",              imageSrc:
+                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",              imageAlt: "Эргашева Гули"},
             {
-              id: "3",
-              name: "Максимлиан Нарбаев",
-              handle: "Сеть магазинов 'Брилл'",
-              testimonial:
-                "Используем их стрейч-плёнку для упаковки товаров. Качество отличное, цены конкурентны. Спасибо!",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=3",
-              imageAlt: "Максимлиан Нарбаев",
-            },
+              id: "3",              name: "Максимлиан Нарбаев",              handle: "Сеть магазинов 'Брилл'",              testimonial:
+                "Используем их стрейч-плёнку для упаковки товаров. Качество отличное, цены конкурентны. Спасибо!",              imageSrc:
+                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",              imageAlt: "Максимлиан Нарбаев"},
             {
-              id: "4",
-              name: "Фарход Дадаходжаев",
-              handle: "ООО 'СтройКом'",
-              testimonial:
-                "Партнёр надежный и ответственный. Все свои обязательства выполняет вовремя. Спасибо за профессионализм!",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=4",
-              imageAlt: "Фарход Дадаходжаев",
-            },
+              id: "4",              name: "Фарход Дадаходжаев",              handle: "ООО 'СтройКом'",              testimonial:
+                "Партнёр надежный и ответственный. Все свои обязательства выполняет вовремя. Спасибо за профессионализм!",              imageSrc:
+                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",              imageAlt: "Фарход Дадаходжаев"},
             {
-              id: "5",
-              name: "Камалов Антон",
-              handle: "ИП 'Пластмасс-сервис'",
-              testimonial:
-                "Лучший поставщик в городе. Качество, цена и сервис — всё на высшем уровне. Рекомендую друзьям.",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=5",
-              imageAlt: "Камалов Антон",
-            },
+              id: "5",              name: "Камалов Антон",              handle: "ИП 'Пластмасс-сервис'",              testimonial:
+                "Лучший поставщик в городе. Качество, цена и сервис — всё на высшем уровне. Рекомендую друзьям.",              imageSrc:
+                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",              imageAlt: "Камалов Антон"},
             {
-              id: "6",
-              name: "Фауста Ниязова",
-              handle: "Логистическая компания 'ТрансЛид'",
-              testimonial:
-                "Работаем с SALAFAN-CHI для упаковки грузов. Доставка всегда в срок, качество стабильное. Спасибо!",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=6",
-              imageAlt: "Фауста Ниязова",
-            },
+              id: "6",              name: "Фауста Ниязова",              handle: "Логистическая компания 'ТрансЛид'",              testimonial:
+                "Работаем с SALAFAN-CHI для упаковки грузов. Доставка всегда в срок, качество стабильное. Спасибо!",              imageSrc:
+                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",              imageAlt: "Фауста Ниязова"},
           ]}
         />
       </div>
